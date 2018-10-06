@@ -42,6 +42,6 @@ Note that, the probabilities described above are not actual probabilities but re
 
 For any issues you might have, feel free to contact me at furkan.gursoy@boun.edu.tr or gursoyfurkan@gmail.com
 
-For synthetic networks generated using this algorithm, please visit furkangursoy.github.io/datasets.
+For synthetic networks generated using this algorithm, please visit http://furkangursoy.github.io/datasets.
 
 Feel free to use the generated networks or the source code, with appropriate references to the original paper.
