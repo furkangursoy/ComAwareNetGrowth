@@ -168,6 +168,12 @@ for(testno in 1:nOfTests){
   output$diam [testno]<- diameter(G)
   fit1 <- fit_power_law(degree(G), xmin = 5, force.continuous = TRUE) #you can change xmin for different applications
   output$alpha[testno] <- fit1$alpha
+  
+  #below four lines are for storing the generated synthetic networks
+  #Ename <- paste("edgelist_", testno, ".txt", sep="")
+  #Vname <- paste("vertexlist_", testno, ".txt", sep="")
+  #write.table(get.edgelist(G), file=Ename, row.names = FALSE, col.names = FALSE)
+  #write.table(cbind(V(G),  get.vertex.attribute(G)$cl), file=Vname, row.names = FALSE, col.names = FALSE)
 }
 
 write.table(output, file="output.txt")
