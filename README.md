@@ -1,7 +1,10 @@
-# ComAwareNetGrowth
+# A Community-aware Network Growth Model for Synthetic Social Network Generation
+
 This repository contains the source code and datasets employed in the following study.
 
 F. Gursoy and B. Badur, A Community-aware Network Growth Model for Synthetic Social Network Generation, 5th Int'l Management Information Systems Conference. 2018
+
+For a sample set of synthetic networks generated using this model, please visit http://furkangursoy.github.io/datasets.
 
 #### File descriptions
 *ComAwareNetGrowth.R*: the code file  
@@ -41,7 +44,5 @@ Note that, the probabilities described above are not actual probabilities but re
 * Set the *xmin* parameter for *fit_power_law()* function to a desired value.
 
 For any issues you might have, feel free to contact me at furkan.gursoy@boun.edu.tr or gursoyfurkan@gmail.com
-
-For a sample set of synthetic networks generated using this model, please visit http://furkangursoy.github.io/datasets.
 
 Feel free to use the generated networks or the source code, with appropriate references to the original paper.
