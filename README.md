@@ -39,9 +39,10 @@ Note that, the probabilities described above are not actual probabilities but re
 
 
 ### Before you run the code
-* Check & modify the names of input and output files.  
-* Set *nOfTests* to the number of test cases you have in your input file (or number of them you want to experiment with).
-* Set the *xmin* parameter for *fit_power_law()* function to a desired value.
+* Check & modify the names of input and output files.  (Line 112 and Line 179)
+* Set *nOfTests* to the number of test cases you have in your input file (or number of them you want to experiment with). (Line 111)
+* Set the *xmin* parameter for *fit_power_law()* function to a desired value. (Line 169)
+* Comment out Lines 173 - 176 to save the vertex and edge list of synthetically generated networks.
 
 For any issues you might have, feel free to contact me at furkan.gursoy@boun.edu.tr or gursoyfurkan@gmail.com
 
