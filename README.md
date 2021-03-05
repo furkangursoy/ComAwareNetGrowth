@@ -1,4 +1,4 @@
-# A Community-aware Network Growth Model for Synthetic Social Network Generation
+### A Community-aware Network Growth Model for Synthetic Social Network Generation
 
 This repository contains the source code and datasets employed in the following study.
 
